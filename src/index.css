@@ -1,0 +1,143 @@
+
+@import "tailwindcss";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat;
+
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  padding: 0 25px;
+  background:#fef3c6 ;
+  overflow: hidden;
+}
+.gift-btn{
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #ef894e64;
+  font-size: 25px;
+}
+.gift-btn:hover{
+  cursor: pointer;
+  background-color: rgba(160, 158, 24, 0.523);
+  transition: all 1s ease;
+  font-weight: 600;
+}
+.hero-card{
+  height: 50vh;
+  width: 25vw;
+  gap: 2rem;
+  border-radius: 1.5rem;
+  background-color: #f5e6adda;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+#exclusive{
+  height: 15vh;
+  width: inherit;
+  
+  padding-top: 3%;
+  margin-top: 3%;
+  border-top: 1px solid black;
+  
+} 
+ #exclusive h1{
+  font-size: 50px;
+  display: flex;
+ justify-self: center;
+ 
+}
+.icard{
+  height: 45vh; 
+  width: 22vw;
+  max-height: 550px;
+  background-color: #f5e6adda;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px 20px;
+  border-radius: 7%;
+  
+
+}
+.icard img{
+  height: 90%;
+  width: 90%;
+  border-radius: inherit;
+  border: 1px solid black;
+}
+.icard h2{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+.icard:hover{
+  scale: 1.05;
+  transition:all 0.4s ease-out;
+  cursor: pointer;
+}
+
+#vid-container{
+  border-top: 1px solid black;
+  height: 100vh;
+  margin-top: 150px;
+  font-size: 80px;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  gap: 40px;
+}
+#vid-container video{
+ height: 70vh;
+  width: 200vh;
+  
+}
+
+
+.footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  font-size: 28px;
+  font-family: "Times New Roman", serif;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.footer-item h3 {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #c9c9c9;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-item h3:hover {
+  color: white;
+}
+
+.copy {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #999;
+}
+
+
