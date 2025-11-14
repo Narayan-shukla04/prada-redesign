@@ -63,7 +63,7 @@ body {
 
 .icard {
   height: 45vh;
-  width: 20vw;
+  width: 22vw;
   max-height: 550px;
   background-color: #f5e6adda;
   display: flex;
@@ -77,8 +77,8 @@ body {
 }
 
 .icard img {
-  height: 90%;
-  width: 90%;
+  height: 80%;
+  width: 80%;
   border-radius: inherit;
   border: 1px solid black;
 }
