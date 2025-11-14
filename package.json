@@ -1,20 +1,19 @@
 {
   "name": "project",
-  "homepage": "https://narayan-shukla04.github.io/prada-redesign/",
+  "homepage": "https://narayan-shukla04.github.io/prada-redesign",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "engines": {
-  "node": "22.x"
-},
-
+    "node": "22.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy" :"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",

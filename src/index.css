@@ -1,6 +1,6 @@
-
 @import "tailwindcss";
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,27 +8,31 @@
 
 }
 
-html,body{
+html,
+body {
   width: 100%;
   height: 100%;
   padding: 0 25px;
-  background:#fef3c6 ;
+  background: #fef3c6;
   overflow: hidden;
 }
-.gift-btn{
+
+.gift-btn {
   padding: 5px 10px;
   border: 2px solid black;
   border-radius: 10px;
   background-color: #ef894e64;
   font-size: 25px;
 }
-.gift-btn:hover{
+
+.gift-btn:hover {
   cursor: pointer;
   background-color: rgba(160, 158, 24, 0.523);
   transition: all 1s ease;
   font-weight: 600;
 }
-.hero-card{
+
+.hero-card {
   height: 50vh;
   width: 25vw;
   gap: 2rem;
@@ -40,24 +44,26 @@ html,body{
   padding: 50px 0;
 }
 
-#exclusive{
+#exclusive {
   height: 15vh;
   width: inherit;
-  
+
   padding-top: 3%;
   margin-top: 3%;
   border-top: 1px solid black;
-  
-} 
- #exclusive h1{
+
+}
+
+#exclusive h1 {
   font-size: 50px;
   display: flex;
- justify-self: center;
- 
+  justify-self: center;
+
 }
-.icard{
-  height: 45vh; 
-  width: 22vw;
+
+.icard {
+  height: 45vh;
+  width: 20vw;
   max-height: 550px;
   background-color: #f5e6adda;
   display: flex;
@@ -66,28 +72,30 @@ html,body{
   gap: 20px;
   padding: 15px 20px;
   border-radius: 7%;
-  
+
 
 }
-.icard img{
+
+.icard img {
   height: 90%;
   width: 90%;
   border-radius: inherit;
   border: 1px solid black;
 }
-.icard h2{
+
+.icard h2 {
   font-size: 30px;
   font-weight: 600;
 }
 
 
-.icard:hover{
+.icard:hover {
   scale: 1.05;
-  transition:all 0.4s ease-out;
+  transition: all 0.4s ease-out;
   cursor: pointer;
 }
 
-#vid-container{
+#vid-container {
   border-top: 1px solid black;
   height: 100vh;
   margin-top: 150px;
@@ -100,10 +108,11 @@ html,body{
   padding-top: 50px;
   gap: 40px;
 }
-#vid-container video{
- height: 70vh;
+
+#vid-container video {
+  height: 70vh;
   width: 200vh;
-  
+
 }
 
 
@@ -139,5 +148,3 @@ html,body{
   font-size: 14px;
   color: #999;
 }
-
-
