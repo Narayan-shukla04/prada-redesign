@@ -63,15 +63,15 @@ body {
 
 .icard {
   height: 45vh;
-  width: 20vw;
+  width: 22vw;
   max-height: 550px;
   background-color: #f5e6adda;
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
   padding: 15px 20px;
-  border-radius: 5%;
+  border-radius: 7%;
 
 
 }
